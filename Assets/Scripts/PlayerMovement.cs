@@ -53,5 +53,11 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    
+    // Gizmo function adds a red color line 
+    public void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, transform.forward * 500f);
+    }
+
 }
