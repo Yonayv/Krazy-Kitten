@@ -12,9 +12,9 @@ TagManager:
   - Water
   - UI
   - Background
+  - Health
   - Player
-  - 
-  - 
+  - Shelves
   - 
   - 
   - 
@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: UI
+    uniqueID: 2639320829
+    locked: 0
+  - name: Health
+    uniqueID: 2376241283
+    locked: 0
+  - name: Player
+    uniqueID: 2409669875
+    locked: 0
   - name: Ground
     uniqueID: 4280747377
     locked: 0
@@ -47,11 +56,8 @@ TagManager:
   - name: Terrain
     uniqueID: 1642129125
     locked: 0
-  - name: Player
-    uniqueID: 2409669875
-    locked: 0
-  - name: UI
-    uniqueID: 2639320829
+  - name: Shelves
+    uniqueID: 3509697933
     locked: 0
   - name: Default
     uniqueID: 0
