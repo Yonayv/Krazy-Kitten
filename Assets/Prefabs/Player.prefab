@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 6948895737184814257}
   - component: {fileID: 7937643326799199645}
   - component: {fileID: 4906390329449120061}
-  - component: {fileID: 4888952592666341577}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -194,26 +193,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4888952592666341577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5489832283626809433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adc5a7212393e1842924a99255ab2bfd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: 6
-  hearts:
-  - {fileID: 5590163871188433229, guid: d72d3e08b8334f44d903111128fdba4b, type: 3}
-  - {fileID: 24444027121267639, guid: e0f0e5391c919f448bae93f8f8aa31cd, type: 3}
-  - {fileID: 5042451538830781721, guid: 0c9266b58c5e76741a3c3270a2799df2, type: 3}
-  - {fileID: 377171355670663991, guid: b5b6c28f59c2b62408c7e82c008625ff, type: 3}
-  - {fileID: 6070514353003709065, guid: efea1d42987e9844d994679adabf97b8, type: 3}
-  - {fileID: 8425112558192861051, guid: 41c471d3592e5a547823e4109e1ecdaa, type: 3}
-  - {fileID: 4173311226925722900, guid: 4cece92aa80a3954296f16b680487707, type: 3}
-  - {fileID: 2034272484724106442, guid: 664cae34a41ae4240995d0a77a072817, type: 3}
-  - {fileID: 979918117879412273, guid: dcb2853bff2d16148a1453ae1338ec63, type: 3}

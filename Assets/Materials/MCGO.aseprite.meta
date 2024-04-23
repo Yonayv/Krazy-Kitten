@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4511db4245206484a9b805ec01f52c4c
+guid: 077d8f317aa611c4e8122d3cb2e907f4
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,9 +119,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: MAMACAT
+  - name: MCGO
     originalName: 
-    pivot: {x: 0.27272728, y: -0.7307692}
+    pivot: {x: 0.6818182, y: -0.9565217}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -129,8 +129,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 22
-      height: 26
-    spriteID: 8506309b4345b0545a59f51d80eafe51
+      height: 23
+    spriteID: f3bb6af938547e443b5739d11fecb15a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,20 +142,20 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 818270830
-    name: MAMACAT
+    guid: 1142243564
+    name: MCGO
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: MAMACAT
+    - name: MCGO
       frameIndex: 0
       cellRect:
-        x: 19
-        y: 19
+        x: 10
+        y: 22
         width: 22
-        height: 26
-      spriteId: 8506309b4345b0545a59f51d80eafe51
+        height: 23
+      spriteId: f3bb6af938547e443b5739d11fecb15a
     linkedCells: []
     parentIndex: -1
   platformSettings: []

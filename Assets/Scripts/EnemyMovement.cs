@@ -12,24 +12,32 @@ public class Enemy : MonoBehaviour
 
     public float speed;
 
-    public float jumpForce;
-
     public LayerMask groundLayer;
 
     private float distance;
 
     private bool isGrounded;
 
-    private bool shouldJump;
+    private bool checkinGround;
 
     Rigidbody2D myRigidbody;
 
     BoxCollider2D myBoxCollider;
 
-     void Start()
+    public float jumpForce;
+
+    private bool shouldJump;
+
+     float jumpheight;
+
+    [SerializeField] Vector2 boxsize;
+
+    void Start()
     {
         
     }
+
+
 
      void Update()
     {
