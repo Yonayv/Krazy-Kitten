@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
 {
 
     public Sprite fullHeart, halfHeart, emptyHeart;
+ 
     Image heartImage;
     // Start is called before the first frame update
     private void Awake()

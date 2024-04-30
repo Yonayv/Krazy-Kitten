@@ -41,14 +41,19 @@ public class Enemy : MonoBehaviour
 
      void Update()
     {
+        if (player != null)
+        {
+            distance = Vector2.Distance(transform.position, player.transform.position);
 
+            Vector2 direction = player.transform.position - transform.position;
 
-        distance = Vector2.Distance(transform.position, player.transform.position);
+            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
 
-        Vector2 direction = player.transform.position - transform.position;
+        }
 
-        transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
 
     }
+
+   
 }
 

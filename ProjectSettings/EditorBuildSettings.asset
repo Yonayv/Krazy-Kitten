@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Main Menu.unity
+    guid: c0352b474844c564d85849b9a3885cbd
   - enabled: 1
-    path: Assets/KrazyKitten.unity
+    path: Assets/Scenes/KrazyKitten.unity
     guid: 0b37e066dfb377b47b4f46d518bc79c7
   m_configObjects: {}

@@ -10,7 +10,9 @@ public class PlayerMovement : MonoBehaviour
 
     private float dirX = 0f;
 
-    
+    public CollectManager cm;
+
+
     // Start is called before the first frame update
     void Start()
     { 
@@ -58,6 +60,15 @@ public class PlayerMovement : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, transform.forward * 500f);
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Collectibles"))
+        {
+            Destroy(other.gameObject);
+            cm.collectiblesCount++;
+        }
     }
 
 }
