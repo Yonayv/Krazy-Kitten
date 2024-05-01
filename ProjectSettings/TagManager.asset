@@ -44,6 +44,9 @@ TagManager:
   - name: UI
     uniqueID: 2639320829
     locked: 0
+  - name: Borders
+    uniqueID: 4024873259
+    locked: 0
   - name: Health
     uniqueID: 2376241283
     locked: 0

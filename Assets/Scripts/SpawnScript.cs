@@ -4,19 +4,13 @@ using UnityEngine;
 
 public class SpawnScript : MonoBehaviour
 {
-
-    public GameObject[] spawnObjects;
-
-
+   
+    public GameObject[] objectsToSpawn;
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(spawnObjects[Random.Range(0, spawnObjects.Length)], this.transform);
+        Instantiate(objectsToSpawn[Random.Range(0, objectsToSpawn.Length)]);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
