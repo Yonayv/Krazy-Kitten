@@ -20,9 +20,8 @@ public class GameManagerScript : MonoBehaviour
 
     public void gameOver()
     {
-        gameOverUI.SetActive(true); 
-
-
+        gameOverUI.SetActive(true);
+        Time.timeScale = 0f; 
     }
 
     public void Restart()
@@ -30,6 +29,8 @@ public class GameManagerScript : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+
+    
   
 }
 
