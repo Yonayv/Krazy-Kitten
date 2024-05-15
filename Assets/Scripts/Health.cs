@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
+
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +10,7 @@ public class Health : MonoBehaviour
    
     public int health;
     public int numOfHearts;
+
    
 
     public Image[] hearts;
@@ -19,9 +20,11 @@ public class Health : MonoBehaviour
     public int maxHealth = 6;
     public GameManagerScript gameManager;
     private bool isDead;
-   
 
-     void Start()
+
+ 
+
+    void Start()
     {
         health = maxHealth;
     }

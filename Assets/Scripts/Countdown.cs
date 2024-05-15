@@ -28,13 +28,11 @@ public class Countdown : MonoBehaviour
             minutes--;
             seconds = 59;
             TimerText.text = minutes.ToString() + ":" + seconds.ToString("f0");
-            Debug.Log(minutes + " " + seconds);
         }
         else if (seconds > 0)
         {
             seconds -= Time.deltaTime;
             TimerText.text = minutes.ToString() + ":" + seconds.ToString("f0");
-            Debug.Log(minutes + " " + seconds);
         }
         else if (Mathf.Approximately(minutes, 0) && seconds <= 0)
         {

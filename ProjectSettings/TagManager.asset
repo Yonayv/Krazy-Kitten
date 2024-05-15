@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Checkpoint
   - Collectibles
+  - Audio
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Player
   - Shelves
   - Collectibles
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -65,9 +66,12 @@ TagManager:
   - name: Shelves
     uniqueID: 3509697933
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Checkpoint
     uniqueID: 718217129
+    locked: 0
+  - name: Enemy
+    uniqueID: 2773568493
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0

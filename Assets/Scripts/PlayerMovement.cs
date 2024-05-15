@@ -8,9 +8,11 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator anim;
 
-    private float dirX = 0f;
+    private float horizontalInput = 0f;
 
     public CollectManager cm;
+
+    public AudioManager2 audioPlayer; 
 
 
     // Start is called before the first frame update
@@ -23,9 +25,13 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        float dirX = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(dirX * 7f, rb.velocity.y);
+        float horizontalInput = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(horizontalInput * 7f, rb.velocity.y);
 
+        if (horizontalInput > 0.01f)
+            transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+        else if (horizontalInput < -0.01f)
+            transform.localScale = new Vector3(-0.5f, 0.5f, 0.5f);
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -39,12 +45,12 @@ public class PlayerMovement : MonoBehaviour
     private void UpdateAnimationUpdate()
     {
 
-        if (dirX > 0f)
+        if (horizontalInput > 0f)
         {
             anim.SetBool("running", true);
 
         }
-        else if (dirX < 0f)
+        else if (horizontalInput < 0f)
         {
             anim.SetBool("running", true);
         }
@@ -70,5 +76,8 @@ public class PlayerMovement : MonoBehaviour
             cm.collectiblesCount++;
         }
     }
+
+    
+
 
 }

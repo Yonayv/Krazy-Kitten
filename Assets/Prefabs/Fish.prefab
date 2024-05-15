@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 1690230151406390165}
   - component: {fileID: 2449374825886905659}
   - component: {fileID: 7836113373110816991}
-  m_Layer: 0
+  - component: {fileID: 4846868596815360191}
+  m_Layer: 10
   m_Name: Fish
   m_TagString: Collectibles
   m_Icon: {fileID: 0}
@@ -120,3 +121,15 @@ CircleCollider2D:
   m_Offset: {x: -0.08978844, y: 0.33670425}
   serializedVersion: 2
   m_Radius: 2.8796673
+--- !u!114 &4846868596815360191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3544447873668491198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ed971aea6a29745b4c54fd0cccd8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

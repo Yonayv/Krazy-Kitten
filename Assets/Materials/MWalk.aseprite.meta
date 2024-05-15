@@ -121,15 +121,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: MWalk
     originalName: 
-    pivot: {x: 2.3611112, y: -6.833333}
+    pivot: {x: 0.40000007, y: -2.3030303}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 36
-      height: 24
+      width: 40
+      height: 33
     spriteID: dc8933d0adc42b5488ee0ff6c63681f7
     spriteBone: []
     spriteOutline: []
@@ -151,10 +151,10 @@ ScriptedImporter:
     - name: MWalk
       frameIndex: 0
       cellRect:
-        x: 15
-        y: 164
-        width: 36
-        height: 24
+        x: 84
+        y: 76
+        width: 40
+        height: 33
       spriteId: dc8933d0adc42b5488ee0ff6c63681f7
     linkedCells: []
     parentIndex: -1

@@ -20,15 +20,13 @@ public class Enemy : MonoBehaviour
 
     private bool checkinGround;
 
-    Rigidbody2D myRigidbody;
+    Rigidbody2D rb;
 
     BoxCollider2D myBoxCollider;
 
     public float jumpForce;
 
     private bool shouldJump;
-
-     float jumpheight;
 
     [SerializeField] Vector2 boxsize;
 
@@ -40,7 +38,11 @@ public class Enemy : MonoBehaviour
 
 
      void Update()
+
+
     {
+ 
+
         if (player != null)
         {
             distance = Vector2.Distance(transform.position, player.transform.position);
@@ -50,6 +52,7 @@ public class Enemy : MonoBehaviour
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
 
         }
+
 
 
     }
